@@ -1,0 +1,13 @@
+<hibernate-mapping package="DAO">
+<class name="Reunion" table="REUNIONS">
+<id name="idReunion" column="ID_REUNION">
+<generator class="native"></generator>
+</id>
+<property name="titre" column="TITRE"></property>
+<property name="dateReunion" column="DATE_REUNION"></property>
+
+
+</class>
+
+</hibernate-mapping>
+
